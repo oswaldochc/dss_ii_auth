@@ -1,0 +1,12 @@
+<?php
+$this->headTitle('Users');
+
+$this->mainMenu()->setActiveItemId('users');
+
+$this->pageBreadcrumbs()->setItems([
+            'Home'=>$this->url('home'),
+            'Manage Users'=>$this->url('users'),
+            ]);
+?>
+
+<h1>Manage Users</h1>
